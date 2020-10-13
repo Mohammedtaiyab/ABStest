@@ -154,7 +154,7 @@ main{
 
 }
 .active{
-  border-bottom: 1px solid blue; 
+  border-bottom: 2px solid blue; 
 }
 .container{
   height: 59px;
