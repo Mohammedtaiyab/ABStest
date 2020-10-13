@@ -137,3 +137,26 @@ main{
     /* border: 3px solid green; */
     padding: 10px;
 }
+.content{
+  width: 100%;
+  display: flex;
+}
+.content-btn{
+  width: 50%;
+  text-align: center;
+   padding-bottom: 11px;
+}
+.content-btn a{
+  font-weight: 500;
+  color: #828588;
+
+}
+.active{
+  border-bottom: 1px solid blue; 
+}
+.container{
+  height: 59px;
+}
+.active a{
+ color: blue;
+}

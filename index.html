@@ -208,14 +208,18 @@
 </div>
 </div>
   <header class="bg-white shadow">
-    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-    	<div class="btn-group" style="width:100%">
-  <button style="width:50%">Riders</button>
-  <button style="width:50%">New</button>
+    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 container">
+    	<div class="content">
+    		<div class="content-btn b1">
+ <a href="">RIDERS</a>
+    			
+    		</div>
+    		<div class="content-btn b2">
+    			  <a href="">NEW</a>
+    			
+    		</div>
 </div>
-     <!--  <h1 class="text-3xl font-bold leading-tight text-gray-900">
-        Dashboard
-      </h1> -->
+     
     </div>
   </header>
   <main>
@@ -290,5 +294,23 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+			$(document).ready(function () {
+				$('.b1').click(function () {
+					$(this).addClass('active');
+					$('.b2').removeClass('active');
+
+				});
+
+			});
+				$(document).ready(function () {
+				$('.b2').click(function () {
+					$(this).addClass('active');
+					$('.b1').removeClass('active');
+
+				});
+
+			});
+		</script>
 </body>
 </html>
