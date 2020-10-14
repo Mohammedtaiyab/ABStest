@@ -2,41 +2,87 @@
 <html>
 <head>
 	<title>Test</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-
-        
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-<style type="text/css">
-
-</style>
 </head>
 <body>
-<!--
+	<!--
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
 <div>
-  <nav class="bg-gray-800">
+  <nav class="bg-white-800 border-b">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center">
-        	 <div class="foot -mr-2 flex md:hidden">
-        	 	 <div class="flex-shrink-0 head">
-            <img class="h-10 w-10 rounded-full" src="https://www.xovi.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" alt="">
-            <div>
-            	 <h2>Mahalakshmi Car Wash </h2>
-            <p>Munna Bhai MBBS</p>
+          <div class="md:hidden flex-shrink-0 flex">
+             <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+               <div class="ml-2">
+            	 <h2 class="font-medium">Mahalakshmi Car Wash </h2>
+            <p class="font-normal">Munna Bhai MBBS</p>
              </div>
+
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-4">
+             
+            </div>
+          </div>
+        </div>
+        <div class="hidden md:block">
+          <div class="ml-4 flex items-center md:ml-6">
+          	 <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white butn" aria-label="Notifications">
+	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 986 986"  width="24px" height="24px" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#828588;}
+</style>
+<g>
+	<path class="st0" d="M60,856.5h799.8c33.1,0,60-26.9,60-60V661.2H632.7c-21.5,0-42.5-4.2-62.2-12.6c-19-8-36.1-19.6-50.7-34.2
+		c-14.6-14.6-26.2-31.7-34.2-50.7C477.3,544,473,523,473,501.5v-16.9c0-21.5,4.2-42.5,12.6-62.2c8-19,19.6-36.1,34.2-50.7
+		c14.6-14.6,31.7-26.2,50.7-34.2c19.7-8.3,40.7-12.6,62.2-12.6h287.1V189.4c0-33.1-26.9-60-60-60H60c-33.1,0-60,26.9-60,60v607.1
+		C0,829.6,26.9,856.5,60,856.5z"/>
+	<path class="st0" d="M986,429.9c0-24.9-20.1-45-45-45h-21.2H632.7c-55.1,0-99.7,44.6-99.7,99.7v16.9c0,55.1,44.6,99.7,99.7,99.7
+		h287.1H941c24.9,0,45-20.1,45-45V429.9z M649,546c-29.3,0-53-23.7-53-53c0-29.3,23.7-53,53-53s53,23.7,53,53
+		C702,522.3,678.3,546,649,546z"/>
+</g>
+</svg>
+</button>
+            <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700" aria-label="Notifications">
+              <svg class="h-6 w-6" stroke="#828588" fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+              </svg>
+            </button>
+
+            <!-- Profile dropdown -->
+            <div class="ml-3 relative">
+              <div>
+                <button class="max-w-xs flex items-center text-sm rounded-full text-white focus:outline-none focus:shadow-solid" id="user-menu" aria-label="User menu" aria-haspopup="true">
+                  <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                </button>
               </div>
-        	 </div>
-        	  <div class="foot -mr-2 flex md:hidden items-right">
-        	  	            <div class="">
-        	  	            	<button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white btn" aria-label="Notifications">
+              <!--
+                Profile dropdown panel, show/hide based on dropdown state.
+
+                Entering: "transition ease-out duration-100"
+                  From: "transform opacity-0 scale-95"
+                  To: "transform opacity-100 scale-100"
+                Leaving: "transition ease-in duration-75"
+                  From: "transform opacity-100 scale-100"
+                  To: "transform opacity-0 scale-95"
+              -->
+              <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="-mr-2 flex md:hidden">
+          <!-- Mobile menu button -->
+
+         	<button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white btn" aria-label="Notifications">
         	  	            		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 447.7 447.7" width="24px" height="24px" xml:space="preserve">
 <style type="text/css">
@@ -59,110 +105,23 @@
 </g>
 </svg>
         	  	            	</button>
-            	
-
-            </div>
-        	  </div>
-          <div class="hidden flex-shrink-0">
-           <!--  <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-on-dark.svg" alt="Workflow logo"> -->
-          </div>
-          <div class="hidden md:block">
-            <div class="ml-10 flex items-baseline space-x-4">
-            
-            </div>
-          </div>
         </div>
-        <div class="hidden md:block">
-          <div class="ml-4 flex items-center md:ml-6">
-            <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700" aria-label="Notifications">
-              <svg class="h-6 w-6" stroke="#828588" fill="none" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-              </svg>
-            </button>
- <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700" aria-label="Notifications">
-	<!-- <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 986 986" xml:space="preserve"> -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 986 986"  width="24px" height="24px" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#828588;}
-</style>
-<g>
-	<path class="st0" d="M60,856.5h799.8c33.1,0,60-26.9,60-60V661.2H632.7c-21.5,0-42.5-4.2-62.2-12.6c-19-8-36.1-19.6-50.7-34.2
-		c-14.6-14.6-26.2-31.7-34.2-50.7C477.3,544,473,523,473,501.5v-16.9c0-21.5,4.2-42.5,12.6-62.2c8-19,19.6-36.1,34.2-50.7
-		c14.6-14.6,31.7-26.2,50.7-34.2c19.7-8.3,40.7-12.6,62.2-12.6h287.1V189.4c0-33.1-26.9-60-60-60H60c-33.1,0-60,26.9-60,60v607.1
-		C0,829.6,26.9,856.5,60,856.5z"/>
-	<path class="st0" d="M986,429.9c0-24.9-20.1-45-45-45h-21.2H632.7c-55.1,0-99.7,44.6-99.7,99.7v16.9c0,55.1,44.6,99.7,99.7,99.7
-		h287.1H941c24.9,0,45-20.1,45-45V429.9z M649,546c-29.3,0-53-23.7-53-53c0-29.3,23.7-53,53-53s53,23.7,53,53
-		C702,522.3,678.3,546,649,546z"/>
-</g>
-</svg>
-</button>
-            <!-- Profile dropdown -->
-            <div class="ml-3 relative">
-              <div>
-                <button class="max-w-xs flex items-center text-sm rounded-full text-white focus:outline-none focus:shadow-solid" id="user-menu" aria-label="User menu" aria-haspopup="true">
-                  <img class="h-8 w-8 rounded-full" src="https://www.xovi.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" alt="">
-                </button>
-              </div>
-              <!--
-                Profile dropdown panel, show/hide based on dropdown state.
-
-                Entering: "transition ease-out duration-100"
-                  From: "transform opacity-0 scale-95"
-                  To: "transform opacity-100 scale-100"
-                Leaving: "transition ease-in duration-75"
-                  From: "transform opacity-100 scale-100"
-                  To: "transform opacity-0 scale-95"
-              -->
-              <div class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg">
-                <div class="py-1 rounded-md bg-white shadow-xs" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Munna Bhai MBBS</a>
-
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Settings</a>
-
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Sign out</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
     <!--
       Mobile menu, toggle classes based on menu state.
 
-      Open: "block", closed: "hidden"
+      Open: "block", closed: "hiddebg-white-800 n"
     -->
-    <div class="hidden md:hidden">
-      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-       
-      </div>
-      <div class="pt-4 pb-3 border-t border-gray-700">
-        <div class="flex items-center px-5 space-x-3">
-          <div class="flex-shrink-0">
-            <img class="h-10 w-10 rounded-full" src="https://www.xovi.com/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png" alt="">
-          </div>
-          <div class="space-y-1">
-            <div class="text-base font-medium leading-none text-white">Tom Cook</div>
-            <div class="text-sm font-medium leading-none text-gray-400">tom@example.com</div>
-          </div>
-        </div>
-        <div class="mt-3 px-2 space-y-1">
-          <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Your Profile</a>
 
-          <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Settings</a>
-
-          <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Sign out</a>
-        </div>
-      </div>
-    </div>
   </nav>
- <div class="foot -mr-2 flex md:hidden">
- 	
-<div class="navbar">
-	     <div class="-mr-2 flex md:hidden">
-        <!--   <Mobile menu button> -->
-          <button class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white">
+  <div class="bg-white md:hidden border-t fixed bottom-0 w-full">
+    <div class="max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center">
+          <div class="md:hidden flex-shrink-0">
+               <button class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white">
     <!--         <Menu open: "hidden", Menu closed: "block" > -->
             <svg class="block h-6 w-6" stroke="#828588" fill="none" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -172,14 +131,14 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
-        </div>
-
-	
-<div class="btn-section">
-	
-        <div class="btn1"> 
+          </div>
         
- <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white butn" aria-label="Notifications">
+        </div>
+     
+        <div class="-mr-2 flex md:hidden">
+          <!-- Mobile menu button -->
+
+         	 <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white butn" aria-label="Notifications">
 	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 986 986"  width="24px" height="24px" xml:space="preserve">
 <style type="text/css">
@@ -196,127 +155,105 @@
 </g>
 </svg>
 </button>
-</div>
-<div class="btn2">
-	
-    <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white btn" aria-label="Notifications">
+            <button class="p-1 border-2 border-transparent text-gray-400 rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700" aria-label="Notifications">
               <svg class="h-6 w-6" stroke="#828588" fill="none" viewBox="0 0 24 24">
-
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
               </svg>
             </button>
         </div>
-</div>
-</div>
-</div>
-</div>
-  <header class="bg-white shadow">
-    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 container">
-    	<div class="content">
-    		<div class="content-btn b1 ">
- <a href="">RIDERS</a>
-    			
-    		</div>
-    		<div class="content-btn b2">
-    			  <a href="">NEW</a>
-    			
-    		</div>
-</div>
-     
+      </div>
     </div>
+</div>
+  <header class="bg-white grid grid-cols-2 h-10 content-center">
+ <a href="" class="font-medium">
+  <div class="text-center text-blue-700 border-b-2 border-blue-600">RIDERS</div></a>
+  <a href="" class="font-medium">
+  <div class="text-center text-teal-500 border-b border-blue-200">NEW</div> </a>
+  
   </header>
-  <main>
+ <main>
     <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <!-- Replace with your content -->
 
- <div class="max-w-sm rounded overflow-hidden shadow-lg sections">
+ <div class="max-w-sm rounded overflow-hidden shadow-lg  border rounded border-gray-600 m-2">
   <div class="px-6 py-4">
-  	<div class="cardsec">
+  	<div class="flex">
+  		<div>
   			<ul>
   		<li>
-  			<i class="fa fa-user" aria-hidden="true"></i> <span> Raju Shrivastav </span>
+  			<i class="fa fa-user" aria-hidden="true"></i><span class="m-2">Raju Shrivastav </span>
   		</li>
   		<li>
-  			<i class="fa fa-map-marker" aria-hidden="true"></i><span>  Near Venkeys, Parihar Chowk, Aundh</span>
+  			<i class="fa fa-map-marker" aria-hidden="true"></i><span class="m-2">Near Venkeys, Parihar Chowk, Aundh</span>
   		</li>
   		<li>
-  			<i class="fa fa-phone" aria-hidden="true"></i> <span>+91 1212123123</span>
+  			<i class="fa fa-phone" aria-hidden="true"></i><span class="m-2">+91 1212123123</span>
   		</li>
   	</ul>
-  	<button class="mybtn">Active</button>
+  		</div>
+  		<div class=" ">
+  			<button class=" border rounded border-indigo-600 text-indigo-600 px-1">Active</button>
+  		</div>
+  	
   	</div>
   
   </div>
 </div>
 
-  <div class="max-w-sm rounded overflow-hidden shadow-lg sections">
+ <div class="max-w-sm rounded overflow-hidden shadow-lg  border rounded border-gray-600 m-2">
   <div class="px-6 py-4">
-  	<div class="cardsec">
+  	<div class="flex">
+  		<div>
   			<ul>
   		<li>
-  			<i class="fa fa-user" aria-hidden="true"></i> <span> Raju Shrivastav </span>
+  			<i class="fa fa-user" aria-hidden="true"></i><span class="m-2">Raju Shrivastav </span>
   		</li>
   		<li>
-  			<i class="fa fa-map-marker" aria-hidden="true"></i><span> Near Venkeys, Parihar Chowk, Aundh</span>
+  			<i class="fa fa-map-marker" aria-hidden="true"></i><span class="m-2">Near Venkeys, Parihar Chowk, Aundh</span>
   		</li>
   		<li>
-  			<i class="fa fa-phone" aria-hidden="true"></i> <span>+91 1212123123</span>
+  			<i class="fa fa-phone" aria-hidden="true"></i><span class="m-2">+91 1212123123</span>
   		</li>
   	</ul>
-  	<button class="mybtn dactive">Dormant</button>
+  		</div>
+  		<div class=" ">
+  			<button class=" border rounded border-red-700 text-red-700 px-1">Dormant</button>
+  		</div>
+  	
   	</div>
   
   </div>
 </div>
- <div class="max-w-sm rounded overflow-hidden shadow-lg sections">
+ <div class="max-w-sm rounded overflow-hidden shadow-lg  border rounded border-gray-600 m-2">
   <div class="px-6 py-4">
-  	<div class="cardsec">
+  	<div class="flex">
+  		<div>
   			<ul>
   		<li>
-  			<i class="fa fa-user" aria-hidden="true"></i> <span> Raju Shrivastav </span>
+  			<i class="fa fa-user" aria-hidden="true"></i><span class="m-2">Raju Shrivastav </span>
   		</li>
   		<li>
-  			<i class="fa fa-map-marker" aria-hidden="true"></i> <span> Near Venkeys, Parihar Chowk, Aundh</span>
+  			<i class="fa fa-map-marker" aria-hidden="true"></i><span class="m-2">Near Venkeys, Parihar Chowk, Aundh</span>
   		</li>
   		<li>
-  			<i class="fa fa-phone" aria-hidden="true"></i> <span>+91 1212123123</span>
+  			<i class="fa fa-phone" aria-hidden="true"></i><span class="m-2">+91 1212123123</span>
   		</li>
   	</ul>
-  	<button class="mybtn">Active</button>
+  		</div>
+  		<div class=" ">
+  			<button class=" border rounded border-indigo-600 text-indigo-600 px-1">Active</button>
+  		</div>
+  	
   	</div>
   
   </div>
 </div>
+
       <!-- /End replace -->
     </div>
   </main>
 </div>
-
-<!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-			$(document).ready(function () {
-				$('.b1').click(function () {
-					$(this).addClass('active');
-					$('.b2').removeClass('active');
-
-				});
-
-			});
-				$(document).ready(function () {
-				$('.b2').click(function () {
-					$(this).addClass('active');
-					$('.b1').removeClass('active');
-
-				});
-
-			});
-				window.onload = function() {
-					$('.b1').addClass('active');
-};
-		</script>
 </body>
 </html>
